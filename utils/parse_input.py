@@ -3,7 +3,6 @@
 """
 @version:
 @author: kx
-@time: 2020/09/27
 @file: parse_input.py
 @function:
 @modify:
