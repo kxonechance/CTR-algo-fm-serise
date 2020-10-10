@@ -72,7 +72,7 @@ def model_fn(features, labels, mode, params):
     first_second_order_sum = tf.reduce_sum(tf.concat([first_order_part, second_order_part], axis=1), axis=1)
 
     # 1 * 1
-    global_bias = tf.get_variable('bias', shape=[1], dtype=tf.float32, initializer=tf.initializers.glorot_normal())
+    global_bias = tf.get_variable('bias', shape=[1], dtype=tf.float32, initializer=tf.constant_initializer(0.0))
     # batch * 1
     global_bias = global_bias * tf.ones_like(first_second_order_sum, dtype=tf.float32)
     # batch * 1
