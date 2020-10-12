@@ -6,6 +6,10 @@
 @file: afm_model.py
 @function:
 @modify:
+@reference:
+https://github.com/cnfsll/Attentional-Neural-Factorization-Machine/blob/master/AFM_Model.py
+https://nirvanada.github.io/2017/09/18/AFM/
+https://github.com/hexiangnan/attentional_factorization_machine/blob/master/code/AFM.py
 """
 
 from __future__ import absolute_import
